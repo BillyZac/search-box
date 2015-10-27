@@ -29,3 +29,7 @@ input:hover + .fa-search,
 input:focus + .fa-search {
   color: aqua;
 }
+
+::-webkit-input-placeholder {
+   color: gray;
+}
