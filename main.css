@@ -1,4 +1,23 @@
+.search {
+  width: 600px;
+  margin: 100px auto 0;
+}
+
+.search input {
+  font-size: 50px;
+  width: 300px;
+  border: none;
+}
+
+.search input:focus {
+  border: none;
+}
 
 .fa-search {
   color: gray;
+  font-size: 50px;
+}
+
+input:hover + .fa-search {
+  color: tomato;
 }
